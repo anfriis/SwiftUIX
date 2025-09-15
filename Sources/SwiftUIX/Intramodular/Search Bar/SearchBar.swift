@@ -226,7 +226,7 @@ extension SearchBar: UIViewRepresentable {
         public func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
             base.onEditingChanged(false)
             
-            base.isFocused?.removeDuplicates().wrappedValue = false
+            // base.isFocused?.removeDuplicates().wrappedValue = false
         }
         
         public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
