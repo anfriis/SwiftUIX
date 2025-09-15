@@ -194,7 +194,7 @@ extension SearchBar: UIViewRepresentable {
                         } else if !isFocused.wrappedValue && (searchController?.isActive ?? uiView.isFirstResponder) {
                             uiView.resignFirstResponder()
                             
-                            searchController?.isActive = false
+                            // searchController?.isActive = false
                         }
                     }
                 }
