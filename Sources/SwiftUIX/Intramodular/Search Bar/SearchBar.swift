@@ -238,6 +238,8 @@ extension SearchBar: UIViewRepresentable {
         }
         
         public func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+            searchBar.endEditing(true)
+
             base.onCommit()
         }
     }
