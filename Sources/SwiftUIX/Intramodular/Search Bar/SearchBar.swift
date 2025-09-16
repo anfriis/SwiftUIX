@@ -181,7 +181,7 @@ extension SearchBar: UIViewRepresentable {
             }
         }
 
-        (uiView as? _UISearchBar)?.isFirstResponderBinding = isFocused
+        // (uiView as? _UISearchBar)?.isFirstResponderBinding = isFocused
 
         updateResponderChain: do {
             if environment.isEnabled {
